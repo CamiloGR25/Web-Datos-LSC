@@ -1,0 +1,106 @@
+/* Estilos generales del contenedor del formulario */
+.form-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #4b7ecbdc; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; /* Centra los elementos horizontalmente */
+  }
+  
+  /* Estilo del título */
+  .titulo {
+    text-align: center;
+    color: #ffffff; /* Blanco */
+    margin-bottom: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #000; /* Borde negro de 1px */
+  }
+  /* Estilo texto*/
+  .text {
+    text-align: left; /* Alinea el texto a la izquierda */
+    color: #ffffff; /* Color blanco para contraste */
+    margin-bottom: 10px; /* Espacio debajo de cada h3 */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: normal; /* Peso de la fuente */
+  }
+  /* Estilos para los inputs */
+  .form-input {
+    width: 95%;
+    padding: 10px;
+    border: 3px solid #1565c0; /* Azul medio */
+    border-radius: 15px;
+    font-size: 16px;
+    color: #000000; /* Texto negro */
+    background-color: #ffffff; /* Fondo blanco */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #2999f5; /* Azul claro al enfocar */
+    box-shadow: 0 0 5px rgba(46, 161, 255, 0.5); /* Sombra suave al enfocar */
+  }
+  
+  .form-input::placeholder {
+    color: #757575; /* Gris para el placeholder */
+  }
+  
+  /* Estilos para el select */
+  .form-select {
+    width: 98%;
+    padding: 10px;
+    border: 3px solid #1565c0; /* Azul medio */
+    border-radius: 15px;
+    font-size: 16px;
+    color: #000000; /* Texto negro */
+    background-color: #ffffff; /* Fondo blanco */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-select:focus {
+    border-color: #64b5f6; /* Azul claro al enfocar */
+    box-shadow: 0 0 7px rgba(100, 181, 246, 0.5); /* Sombra suave al enfocar */
+  }
+  
+  /* Estilos para los botones */
+  .form-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 2px solid #464646; /* Borde negro */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Contenedor para centrar los botones */
+  .botones-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Espacio arriba */
+  }
+
+  .form-button.añadir {
+    background-color: #1585f5; /* Azul medio */
+    color: white;
+  }
+  
+  .form-button.eliminar {
+    background-color: #d32f2f; /* Rojo para contraste */
+    color: white;
+    
+  }
+  
+  .form-button.añadir:hover {
+    background-color: #115293; /* Azul más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de escala suave */
+  }
+  
+  .form-button.eliminar:hover {
+    background-color: #b71c1c; /* Rojo más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de escala suave */
+  }
